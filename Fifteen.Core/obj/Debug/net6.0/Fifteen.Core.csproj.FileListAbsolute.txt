@@ -1,0 +1,12 @@
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\bin\Debug\net6.0\Fifteen.Core.deps.json
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\bin\Debug\net6.0\Fifteen.Core.dll
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\bin\Debug\net6.0\Fifteen.Core.pdb
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\obj\Debug\net6.0\Fifteen.Core.csproj.AssemblyReference.cache
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\obj\Debug\net6.0\Fifteen.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\obj\Debug\net6.0\Fifteen.Core.AssemblyInfoInputs.cache
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\obj\Debug\net6.0\Fifteen.Core.AssemblyInfo.cs
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\obj\Debug\net6.0\Fifteen.Core.csproj.CoreCompileInputs.cache
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\obj\Debug\net6.0\Fifteen.Core.dll
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\obj\Debug\net6.0\refint\Fifteen.Core.dll
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\obj\Debug\net6.0\Fifteen.Core.pdb
+D:\Учеба\C#\ULEARN 2\Оконные приложения\Fifteen\Fifteen.Core\obj\Debug\net6.0\ref\Fifteen.Core.dll

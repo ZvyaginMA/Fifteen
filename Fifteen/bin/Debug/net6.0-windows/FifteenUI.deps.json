@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FifteenUI/1.0.0": {
+        "dependencies": {
+          "Fifteen.Core": "1.0.0"
+        },
+        "runtime": {
+          "FifteenUI.dll": {}
+        }
+      },
+      "Fifteen.Core/1.0.0": {
+        "runtime": {
+          "Fifteen.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FifteenUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fifteen.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
