@@ -25,13 +25,26 @@ namespace Fifteen
                     var iRow = row;
                     var iColumn = column;
                     var button = new Button() { Dock = DockStyle.Fill,
-                                                Text = gameModel.Field[row, column].Value.ToString(),
-                    };
+                                                Text = gameModel.Field[row, column].Val.ToString(),
+                                                BackColor = gameModel.Field[row, column].IsEmpty? Color.Black : Color.White};
+                    button.Click += (sender, args) => { game.MoveEmptyCell(iRow, iColumn); };
                     table.Controls.Add(button, iColumn, iRow);
                 }
             }
             table.Dock = DockStyle.Fill;
             Controls.Add(table);
+            game.StateChanged += (row, column) => { 
+                if (gameModel.Field[row, column].IsEmpty)
+                {
+                    ((Button)table.GetControlFromPosition(column, row)).BackColor = Color.Black;
+                }
+                else
+                {
+                    ((Button)table.GetControlFromPosition(column, row)).BackColor = Color.White;
+                    ((Button)table.GetControlFromPosition(column, row))
+                                  .Text = gameModel.Field[row, column].Val.ToString();
+                }
+            };
         }
     }
 }

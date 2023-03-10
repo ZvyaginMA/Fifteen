@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,10 +10,11 @@ namespace Fifteen.Core
     public class Cell
     {
         public bool IsEmpty;
-        public int Value;
-    
+        public int Val;
+        
+        
         public Cell(int val) { 
-            Value = val;
+            Val = val;
             IsEmpty = false;
         }
 
@@ -31,7 +33,7 @@ namespace Fifteen.Core
         public void MakeEmpty()
         {
             IsEmpty = true;
-            Value = 0;
+            Val = 0;
         }
     }
 }
