@@ -18,10 +18,10 @@ namespace FifteenTest
             var model = new GameModel(4);
             model.GenerateField();
             var neighbours = model.GetNeighbours(1, 1);
-            Assert.Equal(8, neighbours.Count());
+            Assert.Equal(4, neighbours.Count());
 
             neighbours = model.GetNeighbours(0, 0);
-            Assert.Equal(3, neighbours.Count());
+            Assert.Equal(2, neighbours.Count());
 
             neighbours = model.GetNeighbours(4, 5);
             Assert.Equal(0, neighbours.Count());
