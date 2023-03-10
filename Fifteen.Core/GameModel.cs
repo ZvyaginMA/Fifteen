@@ -33,15 +33,16 @@
         
         public HashSet<(int row, int column)> GetNeighbours(int row, int column)
         {
-            int[] d = { -1, 0, 1 };
+            int[] d = { -1,0,  1 };
             var result = d
                 .SelectMany(x => d
-                    .Where(y => x != 0 || y != 0)
+                    .Where(y => (x==0 || y == 0) && !(x == 0 && y == 0)) 
                     .Where(y => x + row < Size && x + row >= 0 && y + column < Size && y + column >= 0)
                     .Select(y => (row + x, column + y)))
                 .ToHashSet();
             return result;
         }
+
 
         void SetState(int row, int column, int val)
         {

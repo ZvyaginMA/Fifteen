@@ -26,6 +26,7 @@ namespace Fifteen
                     var iColumn = column;
                     var button = new Button() { Dock = DockStyle.Fill,
                                                 Text = gameModel.Field[row, column].Val.ToString(),
+                                                Font = new Font("Arials", 100f / game.Size * 0.7f),
                                                 BackColor = gameModel.Field[row, column].IsEmpty? Color.Black : Color.White};
                     button.Click += (sender, args) => { game.MoveEmptyCell(iRow, iColumn); };
                     table.Controls.Add(button, iColumn, iRow);
